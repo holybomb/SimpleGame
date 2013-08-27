@@ -7,3 +7,10 @@
 //
 
 #include "MainMenuScene.h"
+CCScene* MainMenuScene::scene()
+{
+    CCNodeLoaderLibrary::sharedCCNodeLoaderLibrary()->registerCCNodeLoader( "MainMenu", MainMenuLoader::loader());
+    CCBReader* reader = new CCBReader( CCNodeLoaderLibrary::sharedCCNodeLoaderLibrary() );
+    reader->autorelease();
+    return reader->createSceneWithNodeGraphFromFile( "MainScene.ccbi" ) ;
+}

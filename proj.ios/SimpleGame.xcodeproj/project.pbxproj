@@ -208,6 +208,16 @@
 		97A8EDF617C4971100D6D8A9 /* crystals in Resources */ = {isa = PBXBuildFile; fileRef = 97A8EDF417C4971100D6D8A9 /* crystals */; };
 		97A8EDF717C4971100D6D8A9 /* gamescene in Resources */ = {isa = PBXBuildFile; fileRef = 97A8EDF517C4971100D6D8A9 /* gamescene */; };
 		97A8EDFA17C4971C00D6D8A9 /* GameMainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97A8EDF817C4971C00D6D8A9 /* GameMainMenu.cpp */; };
+		97B0785C17CC690600C2734D /* ccbResources in Resources */ = {isa = PBXBuildFile; fileRef = 97B0785717CC690600C2734D /* ccbResources */; };
+		97B0785D17CC690600C2734D /* fileLookup.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97B0785817CC690600C2734D /* fileLookup.plist */; };
+		97B0785E17CC690600C2734D /* MainScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B0785917CC690600C2734D /* MainScene.ccbi */; };
+		97B0785F17CC690600C2734D /* MainScene.js in Sources */ = {isa = PBXBuildFile; fileRef = 97B0785A17CC690600C2734D /* MainScene.js */; };
+		97B0786317CC695C00C2734D /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97B0786117CC695C00C2734D /* MainMenu.cpp */; };
+		97B0786717CC71E600C2734D /* MainMenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97B0786517CC71E600C2734D /* MainMenuScene.cpp */; };
+		97B0786C17CC74EB00C2734D /* resources-ipad in Resources */ = {isa = PBXBuildFile; fileRef = 97B0786817CC74EB00C2734D /* resources-ipad */; };
+		97B0786D17CC74EB00C2734D /* resources-ipadhd in Resources */ = {isa = PBXBuildFile; fileRef = 97B0786917CC74EB00C2734D /* resources-ipadhd */; };
+		97B0786E17CC74EB00C2734D /* resources-iphone in Resources */ = {isa = PBXBuildFile; fileRef = 97B0786A17CC74EB00C2734D /* resources-iphone */; };
+		97B0786F17CC74EB00C2734D /* resources-iphonehd in Resources */ = {isa = PBXBuildFile; fileRef = 97B0786B17CC74EB00C2734D /* resources-iphonehd */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -649,6 +659,19 @@
 		97A8EDF517C4971100D6D8A9 /* gamescene */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gamescene; sourceTree = "<group>"; };
 		97A8EDF817C4971C00D6D8A9 /* GameMainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameMainMenu.cpp; path = ../Classes/GameMainMenu.cpp; sourceTree = "<group>"; };
 		97A8EDF917C4971C00D6D8A9 /* GameMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMainMenu.h; path = ../Classes/GameMainMenu.h; sourceTree = "<group>"; };
+		97B0785717CC690600C2734D /* ccbResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ccbResources; path = "ccb-resources/ccb-resources/Published-iOS/ccbResources"; sourceTree = "<group>"; };
+		97B0785817CC690600C2734D /* fileLookup.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = fileLookup.plist; path = "ccb-resources/ccb-resources/Published-iOS/fileLookup.plist"; sourceTree = "<group>"; };
+		97B0785917CC690600C2734D /* MainScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = MainScene.ccbi; path = "ccb-resources/ccb-resources/Published-iOS/MainScene.ccbi"; sourceTree = "<group>"; };
+		97B0785A17CC690600C2734D /* MainScene.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = MainScene.js; path = "ccb-resources/ccb-resources/Published-iOS/MainScene.js"; sourceTree = "<group>"; };
+		97B0786117CC695C00C2734D /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenu.cpp; path = ../Classes/MainMenu.cpp; sourceTree = "<group>"; };
+		97B0786217CC695C00C2734D /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenu.h; path = ../Classes/MainMenu.h; sourceTree = "<group>"; };
+		97B0786417CC6F1A00C2734D /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacros.h; path = ../Classes/AppMacros.h; sourceTree = "<group>"; };
+		97B0786517CC71E600C2734D /* MainMenuScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuScene.cpp; path = ../Classes/MainMenuScene.cpp; sourceTree = "<group>"; };
+		97B0786617CC71E600C2734D /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuScene.h; path = ../Classes/MainMenuScene.h; sourceTree = "<group>"; };
+		97B0786817CC74EB00C2734D /* resources-ipad */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-ipad"; path = "ccb-resources/ccb-resources/Published-iOS/resources-ipad"; sourceTree = "<group>"; };
+		97B0786917CC74EB00C2734D /* resources-ipadhd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-ipadhd"; path = "ccb-resources/ccb-resources/Published-iOS/resources-ipadhd"; sourceTree = "<group>"; };
+		97B0786A17CC74EB00C2734D /* resources-iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-iphone"; path = "ccb-resources/ccb-resources/Published-iOS/resources-iphone"; sourceTree = "<group>"; };
+		97B0786B17CC74EB00C2734D /* resources-iphonehd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "resources-iphonehd"; path = "ccb-resources/ccb-resources/Published-iOS/resources-iphonehd"; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1182,12 +1205,17 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				97B0786417CC6F1A00C2734D /* AppMacros.h */,
 				97A8EDF817C4971C00D6D8A9 /* GameMainMenu.cpp */,
 				97A8EDF917C4971C00D6D8A9 /* GameMainMenu.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				1AFAF8B516D35DE700DB1158 /* HelloWorldScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* HelloWorldScene.h */,
+				97B0786117CC695C00C2734D /* MainMenu.cpp */,
+				97B0786217CC695C00C2734D /* MainMenu.h */,
+				97B0786517CC71E600C2734D /* MainMenuScene.cpp */,
+				97B0786617CC71E600C2734D /* MainMenuScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1485,6 +1513,14 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				97B0786817CC74EB00C2734D /* resources-ipad */,
+				97B0786917CC74EB00C2734D /* resources-ipadhd */,
+				97B0786A17CC74EB00C2734D /* resources-iphone */,
+				97B0786B17CC74EB00C2734D /* resources-iphonehd */,
+				97B0785717CC690600C2734D /* ccbResources */,
+				97B0785817CC690600C2734D /* fileLookup.plist */,
+				97B0785917CC690600C2734D /* MainScene.ccbi */,
+				97B0785A17CC690600C2734D /* MainScene.js */,
 				97A8EDF417C4971100D6D8A9 /* crystals */,
 				97A8EDF517C4971100D6D8A9 /* gamescene */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
@@ -1588,6 +1624,13 @@
 				1A9CE88E1765A12C000E3062 /* sconscript in Resources */,
 				97A8EDF617C4971100D6D8A9 /* crystals in Resources */,
 				97A8EDF717C4971100D6D8A9 /* gamescene in Resources */,
+				97B0785C17CC690600C2734D /* ccbResources in Resources */,
+				97B0785D17CC690600C2734D /* fileLookup.plist in Resources */,
+				97B0785E17CC690600C2734D /* MainScene.ccbi in Resources */,
+				97B0786C17CC74EB00C2734D /* resources-ipad in Resources */,
+				97B0786D17CC74EB00C2734D /* resources-ipadhd in Resources */,
+				97B0786E17CC74EB00C2734D /* resources-iphone in Resources */,
+				97B0786F17CC74EB00C2734D /* resources-iphonehd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1782,6 +1825,9 @@
 				1A9CE8991765A12C000E3062 /* CCComController.cpp in Sources */,
 				1A9CE89A1765A12C000E3062 /* CCInputDelegate.cpp in Sources */,
 				97A8EDFA17C4971C00D6D8A9 /* GameMainMenu.cpp in Sources */,
+				97B0785F17CC690600C2734D /* MainScene.js in Sources */,
+				97B0786317CC695C00C2734D /* MainMenu.cpp in Sources */,
+				97B0786717CC71E600C2734D /* MainMenuScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

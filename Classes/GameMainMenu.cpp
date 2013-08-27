@@ -30,7 +30,7 @@ bool GameMainMenu::init()
 	CCSprite* background = CCSprite::create("gamescene/background.png");
 	background->setPosition(ccp(w/2,h/2));
 	this->addChild(background);
-	CCMenuItemFont* menu1 = CCMenuItemFont::create("开始游戏");
+	CCMenuItemFont* menu1 = CCMenuItemFont::create("开始游戏",this,menu_selector(GameMainMenu::menuStartCallback));
 
 	CCMenuItemFont* menu2 = CCMenuItemFont::create("结束游戏",this,menu_selector(GameMainMenu::menuCloseCallback));
 
@@ -43,5 +43,10 @@ bool GameMainMenu::init()
 }
 void GameMainMenu::menuCloseCallback( CCObject* pSender )
 {
+    CCDirector::sharedDirector()->end();
 	exit(0);
+}
+void GameMainMenu::menuStartCallback( CCObject* pSender )
+{
+    CCDirector::sharedDirector()->popScene();
 }
