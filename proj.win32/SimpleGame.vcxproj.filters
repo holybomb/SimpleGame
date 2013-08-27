@@ -25,6 +25,12 @@
     <ClCompile Include="..\Classes\GameMainMenu.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\MainMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -39,5 +45,112 @@
     <ClInclude Include="..\Classes\GameMainMenu.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\AppMacros.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\development.icf">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\pew-pew-lei.wav">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\fileLookup.plist">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\MainScene.ccbi">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\MainScene.js">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\ccbDefaultImages.plist">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\ccbDefaultImages.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\ccbParticleFire.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\ccbParticleSmoke.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\ccbParticleSnow.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\ccbParticleStars.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\resources-ipad\ccbDefaultImages.plist">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\resources-ipad\ccbDefaultImages.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\resources-ipadhd\ccbDefaultImages.plist">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\resources-ipadhd\ccbDefaultImages.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\resources-iphonehd\ccbDefaultImages.plist">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\ccbResources\resources-iphonehd\ccbDefaultImages.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-ipad\background.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-ipad\clickme.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-ipad\clickme-down.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-ipadhd\background.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-ipadhd\clickme.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-ipadhd\clickme-down.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-iphone\background.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-iphone\clickme.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-iphone\clickme-down.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-iphonehd\background.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-iphonehd\clickme.png">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\Resources\resources-iphonehd\clickme-down.png">
+      <Filter>resources</Filter>
+    </None>
   </ItemGroup>
 </Project>
