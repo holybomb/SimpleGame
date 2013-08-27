@@ -1,4 +1,4 @@
-//
+﻿//
 //  MainMenuScene.cpp
 //  SimpleGame
 //

@@ -1,4 +1,4 @@
-//
+﻿//
 //  MainMenu.h
 //  SimpleGame
 //
@@ -17,7 +17,7 @@ USING_NS_CC_EXT;
 class MainMenu : public CCLayer,public CCBSelectorResolver,public CCBMemberVariableAssigner{
     
 public:
-    void onPressButton();
+    void onPressButton(CCObject* pSender);
     CREATE_FUNC(MainMenu);
    ~MainMenu()
 	{
