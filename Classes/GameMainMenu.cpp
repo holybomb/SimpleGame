@@ -1,6 +1,6 @@
 ﻿#include "GameMainMenu.h"
 #include "GameScene.h"
-
+#include "GameSceneNoCCB.h"
 GameMainMenu::GameMainMenu(void)
 {
 }
@@ -49,4 +49,5 @@ void GameMainMenu::menuCloseCallback( CCObject* pSender )
 void GameMainMenu::menuStartCallback( CCObject* pSender )
 {
     CCDirector::sharedDirector()->replaceScene(CCTransitionPageTurn::create(0.5f, GameScene::scene(), false));
+//    CCDirector::sharedDirector()->pushScene(GameSceneNoCCB::scene());
 }

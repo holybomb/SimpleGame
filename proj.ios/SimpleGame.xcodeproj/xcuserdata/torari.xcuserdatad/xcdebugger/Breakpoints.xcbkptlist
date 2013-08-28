@@ -43,16 +43,16 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "No"
+         shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/GameScene.cpp"
-         timestampString = "399375684.41263"
+         timestampString = "399398858.652292"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "15"
-         endingLineNumber = "15"
-         landmarkName = "GameScene::scene()"
+         startingLineNumber = "98"
+         endingLineNumber = "98"
+         landmarkName = "GameScene::ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -60,12 +60,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../Classes/GameScene.cpp"
-         timestampString = "399375684.41263"
+         timestampString = "399398253.192366"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
-         landmarkName = "GameScene::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget,const char *pMemberVariableName, cocos2d::CCNode *pNode)"
+         startingLineNumber = "89"
+         endingLineNumber = "89"
+         landmarkName = "GameScene::ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../Classes/GameScene.cpp"
+         timestampString = "399398722.300528"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "94"
+         endingLineNumber = "94"
+         landmarkName = "GameScene::ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent)"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

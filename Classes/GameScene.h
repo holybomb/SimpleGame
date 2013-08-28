@@ -22,6 +22,7 @@ class GameScene : public CCLayer,public CCBMemberVariableAssigner,public CCNodeL
 private:
     CCLayer* mGameLayer;
 public:
+    bool init();
     GameScene();
     ~GameScene()
     {
@@ -31,6 +32,10 @@ public:
     void genBlockLayer();
     CCSprite* getSpriteFromFile();
     CREATE_FUNC(GameScene);
+    
+    void registerWithTouchDispatcher();
+    bool ccTouchBegan(CCTouch *pTouch, CCEvent *pEvent);
+
     virtual bool onAssignCCBMemberVariable(CCObject* pTarget, const char* pMemberVariableName, CCNode* pNode);
     virtual void onNodeLoaded(CCNode * pNode, CCNodeLoader * pNodeLoader);
 };

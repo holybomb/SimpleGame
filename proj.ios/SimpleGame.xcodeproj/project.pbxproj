@@ -228,6 +228,7 @@
 		97B5A1A417CDDC8F00AC0BF2 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A19D17CDDC8F00AC0BF2 /* Icon-144.png */; };
 		97B5A1A717CDE86600AC0BF2 /* block.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1A517CDE86600AC0BF2 /* block.ccbi */; };
 		97B5A1AB17CDE91E00AC0BF2 /* BlockSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97B5A1A917CDE91D00AC0BF2 /* BlockSprite.cpp */; };
+		97E82D8717CE4531002D953E /* GameSceneNoCCB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E82D8517CE4531002D953E /* GameSceneNoCCB.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -688,6 +689,8 @@
 		97B5A1A517CDE86600AC0BF2 /* block.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block.ccbi; sourceTree = "<group>"; };
 		97B5A1A917CDE91D00AC0BF2 /* BlockSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlockSprite.cpp; path = ../Classes/BlockSprite.cpp; sourceTree = "<group>"; };
 		97B5A1AA17CDE91E00AC0BF2 /* BlockSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockSprite.h; path = ../Classes/BlockSprite.h; sourceTree = "<group>"; };
+		97E82D8517CE4531002D953E /* GameSceneNoCCB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameSceneNoCCB.cpp; path = ../Classes/GameSceneNoCCB.cpp; sourceTree = "<group>"; };
+		97E82D8617CE4531002D953E /* GameSceneNoCCB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSceneNoCCB.h; path = ../Classes/GameSceneNoCCB.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1230,6 +1233,8 @@
 				97B5A0CA17CDD4B200AC0BF2 /* GameScene.h */,
 				97B5A1A917CDE91D00AC0BF2 /* BlockSprite.cpp */,
 				97B5A1AA17CDE91E00AC0BF2 /* BlockSprite.h */,
+				97E82D8517CE4531002D953E /* GameSceneNoCCB.cpp */,
+				97E82D8617CE4531002D953E /* GameSceneNoCCB.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -1848,6 +1853,7 @@
 				97B5A0CB17CDD4B200AC0BF2 /* GameScene.cpp in Sources */,
 				97B5A19117CDDC8100AC0BF2 /* MainScene.js in Sources */,
 				97B5A1AB17CDE91E00AC0BF2 /* BlockSprite.cpp in Sources */,
+				97E82D8717CE4531002D953E /* GameSceneNoCCB.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
