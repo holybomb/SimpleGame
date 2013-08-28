@@ -27,22 +27,5 @@ bool MainMenu::onAssignCCBMemberVariable(CCObject* pTarget, const char* pMemberV
 {
 	m_TestLabel = NULL;
     CCB_MEMBERVARIABLEASSIGNER_GLUE(pTarget, pMemberVariableName, CCLabelTTF*, m_TestLabel);
-	//if (pTarget == pTarget && 0 == strcmp(pMemberVariableName, (pMemberVariableName))) { 
-	//	CCLabelTTF* pOldVar = m_TestLabel; 
-	//	m_TestLabel = dynamic_cast<CCLabelTTF*>(pNode); 
-	//	CC_ASSERT(m_TestLabel); 
-	//	if (pOldVar != m_TestLabel) { 
-	//		//CC_SAFE_RELEASE(pOldVar); 
-	//		do 	
-	//		{ 
-	//			if(pOldVar) 
-	//			{ 
-	//				(pOldVar)->release(); 
-	//			} 
-	//		} while(0);
-	//		m_TestLabel->retain(); 
-	//	} 
-	//	return true; 
-	//}
     return false;
 }
