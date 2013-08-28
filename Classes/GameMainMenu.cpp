@@ -1,5 +1,5 @@
 ﻿#include "GameMainMenu.h"
-
+#include "GameScene.h"
 
 GameMainMenu::GameMainMenu(void)
 {
@@ -48,5 +48,5 @@ void GameMainMenu::menuCloseCallback( CCObject* pSender )
 }
 void GameMainMenu::menuStartCallback( CCObject* pSender )
 {
-    CCDirector::sharedDirector()->popScene();
+    CCDirector::sharedDirector()->replaceScene(CCTransitionPageTurn::create(0.5f, GameScene::scene(), false));
 }

@@ -7,3 +7,11 @@
 //
 
 #include "BlockSprite.h"
+bool BlockSprite::init()
+{
+    if(!CCSprite::init())
+    {
+        return false;
+    }
+    return true;
+}
