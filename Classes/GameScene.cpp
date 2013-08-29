@@ -43,11 +43,11 @@ bool GameScene::onAssignCCBMemberVariable(cocos2d::CCObject *pTarget,const char 
     CCB_MEMBERVARIABLEASSIGNER_GLUE(pTarget, "gameLayer", CCLayer*, mGameLayer);
     return false;
 }
-CCSprite* GameScene::getSpriteFromFile()
+CCSprite* GameScene::getSpriteFromFile(const char* fileName)
 {
     CCNodeLoaderLibrary* lib = CCNodeLoaderLibrary::newDefaultCCNodeLoaderLibrary();
     CCBReader* reader = new CCBReader(lib);
-    CCSprite* sprite = (CCSprite* )reader->readNodeGraphFromFile("block.ccbi");
+    CCSprite* sprite = (CCSprite* )reader->readNodeGraphFromFile(fileName);
     return sprite;
 }
 void GameScene::onNodeLoaded(CCNode * pNode, CCNodeLoader * pNodeLoader)
@@ -60,21 +60,51 @@ void GameScene::onNodeLoaded(CCNode * pNode, CCNodeLoader * pNodeLoader)
         float y = mGameLayer->getPositionY();
         float w = winSize.width;
         float h = winSize.height;
-        float offX = w/GAME_LAYER_SIZE_W;
-        float offY = h/GAME_LAYER_SIZE_H;
-        mGameLayer->removeAllChildren();
-        for(int i =0;i<GAME_LAYER_SIZE_H;i++)
+//        blockMap = CCTMXTiledMap::create("hexa-test.tmx");
+//        blockMap->setPosition(ccp(x, y));
+//        blockMap->setScale(0.5f);
+//        mGameLayer->addChild(blockMap);
+        CCSprite* spriteBg = CCSprite::create("blocktiles.png");
+        float offX = spriteBg->getContentSize().width+spriteBg->getContentSize().width/2;//w/GAME_LAYER_SIZE_W;
+        float offY = spriteBg->getContentSize().height/2;//h/GAME_LAYER_SIZE_H;
+        int mapW = (w+offX)/offX;
+        int mapH = (h-offY)/offY;
+        spriteBg->release();
+//        mGameLayer->removeAllChildren();
+        if(mapH%2==0)
+            mapH = mapH-1;
+        for(int i =0;i<mapH;i++)
         {
-            for (int j =0; j<GAME_LAYER_SIZE_W; j++) {
-                CCSprite* sprite = getSpriteFromFile();
-                int sw = sprite->getContentSize().width;
-                int sh = sprite->getContentSize().height;
-                sprite->setPosition(ccp(x+sw+offX*j,y+sh+offY*i));
-                CCLOG("block %d is add",j+GAME_LAYER_SIZE_W*i);
-                mGameLayer->addChild(sprite,0,j+GAME_LAYER_SIZE_W*i);
+            int maxW = mapW-(i%2==0?0:1);
+            for (int j =0; j<maxW; j++) {
+                CCSprite* spriteBg = getSpriteFromFile("blockBG.ccbi");
+                spriteBg->setAnchorPoint(ccp(0.0f, 0.0f));
+                
+                int start = 0;
+                int end = 5;
+                int index = CCRANDOM_0_1()*end+start;
+                CCString* file = CCString::createWithFormat("block%i.ccbi",index);
+                CCSprite* sprite = getSpriteFromFile(file->getCString());// CCSprite::create(file->getCString());
+                sprite->setAnchorPoint(ccp(0.5f, 0.5f));
+                int sw = spriteBg->getContentSize().width;
+                int sh = spriteBg->getContentSize().height;
+                
+//                CCLOG("block %d is add",j+mapW*i);
+                if(i%2!=0)
+                {
+                    spriteBg->setPosition(ccp(offX*j+offX/2, offY*i));
+                    sprite->setPosition(ccp(offX*j+offX/2+sw/2,offY*i+sh/2));
+                }
+                else
+                {
+                    spriteBg->setPosition(ccp(offX*j, offY*i));
+                    sprite->setPosition(ccp(offX*j+sw/2,offY*i+sh/2));
+                }
+                mGameLayer->addChild(spriteBg,0,j+maxW*i);
+                mGameLayer->addChild(sprite,1,(j+maxW*i)*(mapW*mapW));
             }
         }
-
+//
     }
 }
 void GameScene::registerWithTouchDispatcher()

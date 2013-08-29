@@ -228,6 +228,15 @@
 		97B5A1A417CDDC8F00AC0BF2 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A19D17CDDC8F00AC0BF2 /* Icon-144.png */; };
 		97B5A1A717CDE86600AC0BF2 /* block.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1A517CDE86600AC0BF2 /* block.ccbi */; };
 		97B5A1AB17CDE91E00AC0BF2 /* BlockSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97B5A1A917CDE91D00AC0BF2 /* BlockSprite.cpp */; };
+		97B5A1AF17CEEADA00AC0BF2 /* hexa-test.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1AD17CEEADA00AC0BF2 /* hexa-test.tmx */; };
+		97B5A1B017CEEADA00AC0BF2 /* hexa-tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1AE17CEEADA00AC0BF2 /* hexa-tiles.png */; };
+		97B5A1B217CF0D6300AC0BF2 /* blocktiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B117CF0D6300AC0BF2 /* blocktiles.png */; };
+		97B5A1B917CF4AED00AC0BF2 /* block0.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B317CF4AE800AC0BF2 /* block0.ccbi */; };
+		97B5A1BA17CF4AED00AC0BF2 /* block1.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B417CF4AE900AC0BF2 /* block1.ccbi */; };
+		97B5A1BB17CF4AED00AC0BF2 /* block2.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B517CF4AEB00AC0BF2 /* block2.ccbi */; };
+		97B5A1BC17CF4AED00AC0BF2 /* block3.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B617CF4AED00AC0BF2 /* block3.ccbi */; };
+		97B5A1BD17CF4AED00AC0BF2 /* block4.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B717CF4AED00AC0BF2 /* block4.ccbi */; };
+		97B5A1BE17CF4AED00AC0BF2 /* blockBG.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = 97B5A1B817CF4AED00AC0BF2 /* blockBG.ccbi */; };
 		97E82D8717CE4531002D953E /* GameSceneNoCCB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 97E82D8517CE4531002D953E /* GameSceneNoCCB.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
@@ -689,6 +698,15 @@
 		97B5A1A517CDE86600AC0BF2 /* block.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block.ccbi; sourceTree = "<group>"; };
 		97B5A1A917CDE91D00AC0BF2 /* BlockSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlockSprite.cpp; path = ../Classes/BlockSprite.cpp; sourceTree = "<group>"; };
 		97B5A1AA17CDE91E00AC0BF2 /* BlockSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlockSprite.h; path = ../Classes/BlockSprite.h; sourceTree = "<group>"; };
+		97B5A1AD17CEEADA00AC0BF2 /* hexa-test.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "hexa-test.tmx"; sourceTree = "<group>"; };
+		97B5A1AE17CEEADA00AC0BF2 /* hexa-tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hexa-tiles.png"; sourceTree = "<group>"; };
+		97B5A1B117CF0D6300AC0BF2 /* blocktiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blocktiles.png; sourceTree = "<group>"; };
+		97B5A1B317CF4AE800AC0BF2 /* block0.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block0.ccbi; sourceTree = "<group>"; };
+		97B5A1B417CF4AE900AC0BF2 /* block1.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block1.ccbi; sourceTree = "<group>"; };
+		97B5A1B517CF4AEB00AC0BF2 /* block2.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block2.ccbi; sourceTree = "<group>"; };
+		97B5A1B617CF4AED00AC0BF2 /* block3.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block3.ccbi; sourceTree = "<group>"; };
+		97B5A1B717CF4AED00AC0BF2 /* block4.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = block4.ccbi; sourceTree = "<group>"; };
+		97B5A1B817CF4AED00AC0BF2 /* blockBG.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = blockBG.ccbi; sourceTree = "<group>"; };
 		97E82D8517CE4531002D953E /* GameSceneNoCCB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameSceneNoCCB.cpp; path = ../Classes/GameSceneNoCCB.cpp; sourceTree = "<group>"; };
 		97E82D8617CE4531002D953E /* GameSceneNoCCB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSceneNoCCB.h; path = ../Classes/GameSceneNoCCB.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1532,6 +1550,15 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				97B5A1B317CF4AE800AC0BF2 /* block0.ccbi */,
+				97B5A1B417CF4AE900AC0BF2 /* block1.ccbi */,
+				97B5A1B517CF4AEB00AC0BF2 /* block2.ccbi */,
+				97B5A1B617CF4AED00AC0BF2 /* block3.ccbi */,
+				97B5A1B717CF4AED00AC0BF2 /* block4.ccbi */,
+				97B5A1B817CF4AED00AC0BF2 /* blockBG.ccbi */,
+				97B5A1B117CF0D6300AC0BF2 /* blocktiles.png */,
+				97B5A1AD17CEEADA00AC0BF2 /* hexa-test.tmx */,
+				97B5A1AE17CEEADA00AC0BF2 /* hexa-tiles.png */,
 				97B5A1A517CDE86600AC0BF2 /* block.ccbi */,
 				97B5A19717CDDC8F00AC0BF2 /* Default-568h@2x.png */,
 				97B5A19817CDDC8F00AC0BF2 /* Default.png */,
@@ -1654,6 +1681,15 @@
 				97B5A1A317CDDC8F00AC0BF2 /* Icon-114.png in Resources */,
 				97B5A1A417CDDC8F00AC0BF2 /* Icon-144.png in Resources */,
 				97B5A1A717CDE86600AC0BF2 /* block.ccbi in Resources */,
+				97B5A1AF17CEEADA00AC0BF2 /* hexa-test.tmx in Resources */,
+				97B5A1B017CEEADA00AC0BF2 /* hexa-tiles.png in Resources */,
+				97B5A1B217CF0D6300AC0BF2 /* blocktiles.png in Resources */,
+				97B5A1B917CF4AED00AC0BF2 /* block0.ccbi in Resources */,
+				97B5A1BA17CF4AED00AC0BF2 /* block1.ccbi in Resources */,
+				97B5A1BB17CF4AED00AC0BF2 /* block2.ccbi in Resources */,
+				97B5A1BC17CF4AED00AC0BF2 /* block3.ccbi in Resources */,
+				97B5A1BD17CF4AED00AC0BF2 /* block4.ccbi in Resources */,
+				97B5A1BE17CF4AED00AC0BF2 /* blockBG.ccbi in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

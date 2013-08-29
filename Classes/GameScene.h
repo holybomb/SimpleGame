@@ -21,6 +21,7 @@ USING_NS_CC_EXT;
 class GameScene : public CCLayer,public CCBMemberVariableAssigner,public CCNodeLoaderListener{
 private:
     CCLayer* mGameLayer;
+    CCTMXTiledMap* blockMap;
 public:
     bool init();
     GameScene();
@@ -30,7 +31,7 @@ public:
     }
     static CCScene* scene();
     void genBlockLayer();
-    CCSprite* getSpriteFromFile();
+    static CCSprite* getSpriteFromFile(const char* fileName=NULL);
     CREATE_FUNC(GameScene);
     
     void registerWithTouchDispatcher();

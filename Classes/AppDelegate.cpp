@@ -25,7 +25,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     pDirector->setOpenGLView(pEGLView);
 
     // Set the design resolution
-    pEGLView->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, kResolutionFixedHeight);
+    pEGLView->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, kResolutionShowAll);
 
 	CCSize frameSize = pEGLView->getFrameSize();
     
@@ -45,6 +45,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	}
     // if the frame's height is larger than the height of small resource size, select medium resource.
     else if (frameSize.height > smallResource.size.height)
+    {
+        searchPath.push_back(mediumResource.directory);
+        
+        pDirector->setContentScaleFactor(MIN(mediumResource.size.height/designResolutionSize.height, mediumResource.size.width/designResolutionSize.width));
+    }
+    else if (frameSize.height > highResource.size.height)
     {
         searchPath.push_back(mediumResource.directory);
         
